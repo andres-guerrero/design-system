@@ -1,0 +1,70 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --color-blue-50: #eff6ff;
+  --color-blue-100: #dbeafe;
+  --color-blue-500: #3b82f6;
+  --color-blue-600: #2563eb;
+  --color-blue-700: #1d4ed8;
+  --color-neutral-0: #ffffff;
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-200: #e2e8f0;
+  --color-neutral-400: #94a3b8;
+  --color-neutral-600: #475569;
+  --color-neutral-900: #0f172a;
+  --color-green-100: #dcfce7;
+  --color-green-700: #15803d;
+  --color-amber-100: #fef3c7;
+  --color-amber-700: #b45309;
+  --color-red-100: #fee2e2;
+  --color-red-600: #dc2626;
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 999px;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --color-bg-default: var(--color-neutral-0);
+  --color-bg-subtle: var(--color-neutral-50);
+  --color-bg-muted: var(--color-neutral-100);
+  --color-text-primary: var(--color-neutral-900);
+  --color-text-secondary: var(--color-neutral-600);
+  --color-text-disabled: var(--color-neutral-400);
+  --color-text-inverse: var(--color-neutral-0);
+  --color-text-link: var(--color-blue-600);
+  --color-border-default: var(--color-neutral-200);
+  --color-border-strong: var(--color-neutral-400);
+  --color-border-focus: var(--color-blue-500);
+  --color-border-danger: var(--color-red-600);
+  --color-action-primary: var(--color-blue-600);
+  --color-action-primary-hover: var(--color-blue-700);
+  --color-action-secondary-hover: var(--color-blue-50);
+  --color-action-disabled: var(--color-neutral-200);
+  --color-feedback-success-bg: var(--color-green-100);
+  --color-feedback-success-text: var(--color-green-700);
+  --color-feedback-warning-bg: var(--color-amber-100);
+  --color-feedback-warning-text: var(--color-amber-700);
+  --color-feedback-danger-bg: var(--color-red-100);
+  --color-feedback-danger-text: var(--color-red-600);
+  --color-feedback-info-bg: var(--color-blue-100);
+  --color-feedback-info-text: var(--color-blue-700);
+}

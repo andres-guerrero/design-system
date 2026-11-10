@@ -1,0 +1,363 @@
+{
+  "color": {
+    "bg": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.0}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-default)"
+            }
+          }
+        }
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.neutral.50}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-subtle)"
+            }
+          }
+        }
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{color.neutral.100}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-bg-muted)"
+            }
+          }
+        }
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.neutral.900}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-primary)"
+            }
+          }
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{color.neutral.600}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-secondary)"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.neutral.400}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-disabled)"
+            }
+          }
+        }
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{color.neutral.0}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-inverse)"
+            }
+          }
+        }
+      },
+      "link": {
+        "$type": "color",
+        "$value": "{color.blue.600}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-text-link)"
+            }
+          }
+        }
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.200}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-default)"
+            }
+          }
+        }
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.neutral.400}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-strong)"
+            }
+          }
+        }
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "{color.blue.500}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-focus)"
+            }
+          }
+        }
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "{color.red.600}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-border-danger)"
+            }
+          }
+        }
+      }
+    },
+    "action": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.blue.600}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-action-primary)"
+            }
+          }
+        }
+      },
+      "primary-hover": {
+        "$type": "color",
+        "$value": "{color.blue.700}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-action-primary-hover)"
+            }
+          }
+        }
+      },
+      "secondary-hover": {
+        "$type": "color",
+        "$value": "{color.blue.50}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-action-secondary-hover)"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.neutral.200}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-action-disabled)"
+            }
+          }
+        }
+      }
+    },
+    "feedback": {
+      "success-bg": {
+        "$type": "color",
+        "$value": "{color.green.100}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-feedback-success-bg)"
+            }
+          }
+        }
+      },
+      "success-text": {
+        "$type": "color",
+        "$value": "{color.green.700}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-feedback-success-text)"
+            }
+          }
+        }
+      },
+      "warning-bg": {
+        "$type": "color",
+        "$value": "{color.amber.100}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-feedback-warning-bg)"
+            }
+          }
+        }
+      },
+      "warning-text": {
+        "$type": "color",
+        "$value": "{color.amber.700}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-feedback-warning-text)"
+            }
+          }
+        }
+      },
+      "danger-bg": {
+        "$type": "color",
+        "$value": "{color.red.100}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-feedback-danger-bg)"
+            }
+          }
+        }
+      },
+      "danger-text": {
+        "$type": "color",
+        "$value": "{color.red.600}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-feedback-danger-text)"
+            }
+          }
+        }
+      },
+      "info-bg": {
+        "$type": "color",
+        "$value": "{color.blue.100}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-feedback-info-bg)"
+            }
+          }
+        }
+      },
+      "info-text": {
+        "$type": "color",
+        "$value": "{color.blue.700}",
+        "$extensions": {
+          "com.figma": {
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "var(--color-feedback-info-text)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

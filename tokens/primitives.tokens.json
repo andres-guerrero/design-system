@@ -492,5 +492,223 @@
         }
       }
     }
+  },
+  "font-family": {
+    "sans": {
+      "$type": "fontFamily",
+      "$value": "Inter",
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "FONT_FAMILY"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--font-family-sans)"
+          }
+        }
+      }
+    }
+  },
+  "font-weight": {
+    "regular": {
+      "$type": "fontWeight",
+      "$value": 400,
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "FONT_WEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--font-weight-regular)"
+          }
+        }
+      }
+    },
+    "medium": {
+      "$type": "fontWeight",
+      "$value": 500,
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "FONT_WEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--font-weight-medium)"
+          }
+        }
+      }
+    },
+    "semibold": {
+      "$type": "fontWeight",
+      "$value": 600,
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "FONT_WEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--font-weight-semibold)"
+          }
+        }
+      }
+    },
+    "bold": {
+      "$type": "fontWeight",
+      "$value": 700,
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "FONT_WEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--font-weight-bold)"
+          }
+        }
+      }
+    }
+  },
+  "line-height": {
+    "16": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "LINE_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--line-height-16)"
+          }
+        }
+      }
+    },
+    "20": {
+      "$type": "dimension",
+      "$value": "20px",
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "LINE_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--line-height-20)"
+          }
+        }
+      }
+    },
+    "24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "LINE_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--line-height-24)"
+          }
+        }
+      }
+    },
+    "28": {
+      "$type": "dimension",
+      "$value": "28px",
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "LINE_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--line-height-28)"
+          }
+        }
+      }
+    },
+    "32": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "LINE_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--line-height-32)"
+          }
+        }
+      }
+    },
+    "40": {
+      "$type": "dimension",
+      "$value": "40px",
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "LINE_HEIGHT"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--line-height-40)"
+          }
+        }
+      }
+    }
+  },
+  "letter-spacing": {
+    "tight": {
+      "$type": "dimension",
+      "$value": "-0.5px",
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "LETTER_SPACING"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--letter-spacing-tight)"
+          }
+        }
+      }
+    },
+    "snug": {
+      "$type": "dimension",
+      "$value": "-0.25px",
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "LETTER_SPACING"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--letter-spacing-snug)"
+          }
+        }
+      }
+    },
+    "normal": {
+      "$type": "dimension",
+      "$value": "0px",
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "LETTER_SPACING"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--letter-spacing-normal)"
+          }
+        }
+      }
+    },
+    "wide": {
+      "$type": "dimension",
+      "$value": "0.2px",
+      "$extensions": {
+        "com.figma": {
+          "scopes": [
+            "LETTER_SPACING"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--letter-spacing-wide)"
+          }
+        }
+      }
+    }
   }
 }

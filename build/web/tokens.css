@@ -43,6 +43,21 @@
   --font-size-lg: 18px;
   --font-size-xl: 24px;
   --font-size-2xl: 32px;
+  --font-family-sans: Inter;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --line-height-16: 16px;
+  --line-height-20: 20px;
+  --line-height-24: 24px;
+  --line-height-28: 28px;
+  --line-height-32: 32px;
+  --line-height-40: 40px;
+  --letter-spacing-tight: -0.5px;
+  --letter-spacing-snug: -0.25px;
+  --letter-spacing-normal: 0px;
+  --letter-spacing-wide: 0.2px;
   --color-bg-default: var(--color-neutral-0);
   --color-bg-subtle: var(--color-neutral-50);
   --color-bg-muted: var(--color-neutral-100);
@@ -67,4 +82,44 @@
   --color-feedback-danger-text: var(--color-red-600);
   --color-feedback-info-bg: var(--color-blue-100);
   --color-feedback-info-text: var(--color-blue-700);
+  --typography-display-font-family: var(--font-family-sans); /** Display */
+  --typography-display-font-weight: var(--font-weight-bold); /** Display */
+  --typography-display-font-size: var(--font-size-2xl); /** Display */
+  --typography-display-line-height: var(--line-height-40); /** Display */
+  --typography-display-letter-spacing: var(--letter-spacing-tight); /** Display */
+  --typography-heading-font-family: var(--font-family-sans); /** Heading */
+  --typography-heading-font-weight: var(--font-weight-semibold); /** Heading */
+  --typography-heading-font-size: var(--font-size-xl); /** Heading */
+  --typography-heading-line-height: var(--line-height-32); /** Heading */
+  --typography-heading-letter-spacing: var(--letter-spacing-snug); /** Heading */
+  --typography-title-font-family: var(--font-family-sans); /** Title */
+  --typography-title-font-weight: var(--font-weight-semibold); /** Title */
+  --typography-title-font-size: var(--font-size-lg); /** Title */
+  --typography-title-line-height: var(--line-height-28); /** Title */
+  --typography-title-letter-spacing: var(--letter-spacing-normal); /** Title */
+  --typography-body-font-family: var(--font-family-sans); /** Body */
+  --typography-body-font-weight: var(--font-weight-regular); /** Body */
+  --typography-body-font-size: var(--font-size-md); /** Body */
+  --typography-body-line-height: var(--line-height-24); /** Body */
+  --typography-body-letter-spacing: var(--letter-spacing-normal); /** Body */
+  --typography-body-strong-font-family: var(--font-family-sans); /** Body Strong */
+  --typography-body-strong-font-weight: var(--font-weight-semibold); /** Body Strong */
+  --typography-body-strong-font-size: var(--font-size-md); /** Body Strong */
+  --typography-body-strong-line-height: var(--line-height-24); /** Body Strong */
+  --typography-body-strong-letter-spacing: var(--letter-spacing-normal); /** Body Strong */
+  --typography-body-small-font-family: var(--font-family-sans); /** Body Small */
+  --typography-body-small-font-weight: var(--font-weight-regular); /** Body Small */
+  --typography-body-small-font-size: var(--font-size-sm); /** Body Small */
+  --typography-body-small-line-height: var(--line-height-20); /** Body Small */
+  --typography-body-small-letter-spacing: var(--letter-spacing-normal); /** Body Small */
+  --typography-label-font-family: var(--font-family-sans); /** Label */
+  --typography-label-font-weight: var(--font-weight-medium); /** Label */
+  --typography-label-font-size: var(--font-size-sm); /** Label */
+  --typography-label-line-height: var(--line-height-20); /** Label */
+  --typography-label-letter-spacing: var(--letter-spacing-normal); /** Label */
+  --typography-caption-font-family: var(--font-family-sans); /** Caption */
+  --typography-caption-font-weight: var(--font-weight-medium); /** Caption */
+  --typography-caption-font-size: var(--font-size-xs); /** Caption */
+  --typography-caption-line-height: var(--line-height-16); /** Caption */
+  --typography-caption-letter-spacing: var(--letter-spacing-wide); /** Caption */
 }

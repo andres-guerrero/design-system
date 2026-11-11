@@ -1,4 +1,5 @@
 import '../build/web/tokens.css'
+import '../src/styles/base.css'
 import '@fontsource/inter/400.css'
 import '@fontsource/inter/500.css'
 import '@fontsource/inter/600.css'
